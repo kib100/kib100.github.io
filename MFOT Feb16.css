@@ -1,0 +1,185 @@
+h1 {
+	color: rgb(236,233,233);
+	background: rgba(84,83,83,0.9);
+	font-family: 'Roboto', sans-serif;
+	padding: 40px 40px 40px 40px;
+	margin: 51px 0 0 0;
+	background-position: center;
+	background-size: 100%;
+	text-align: center;
+}
+
+p {
+	color: rgb(236,233,233);
+	background: rgba(84,83,83,0.9);
+	font-family: 'Roboto', sans-serif;
+	padding: 5px 40px 40px 40px;
+	margin: 0 auto;
+	
+	font-size: 20px;
+	text-align: center;
+}
+
+
+
+.navbar-inverse {
+	background: rgb(84,83,83);
+	font-family: 'Roboto', sans-serif;
+	color: black;
+}
+
+@media (max-width: 500px) {
+        #frames {
+        	width: 450px;
+        }
+    }
+
+#frames {
+	
+	margin: 0 auto;
+	background-color: white;
+	
+}
+
+#blue  {
+	position: relative; 
+	top: 0;
+	left: 0;
+	z-index: 1;
+	padding: 40px;
+}
+
+#bluetext {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	opacity: 0;
+	padding: 40px;
+}
+
+#blue:hover > #bluetext {
+	opacity: 1;
+}
+#orange {
+	position: relative; 
+	top: 0;
+	left: 0;
+	z-index: 1;
+	padding: 40px;
+}
+#orangetext {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	opacity: 0;
+	padding: 40px;
+}
+
+#orange:hover > #orangetext {
+	opacity: 1;
+}
+
+#turquoise {
+	position: relative; 
+	top: 0;
+	left: 0;
+	z-index: 1;
+	padding: 40px;
+}
+
+#turquoisetext {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	opacity: 0;
+	padding: 40px;
+}
+
+#turquoise:hover > #turquoisetext {
+	opacity: 1;
+}
+
+#green {
+	padding: 40px;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+#greentext {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	opacity: 0;
+	padding: 40px;
+}
+
+#green:hover > #greentext {
+	opacity: 1;
+}
+#lightblue  {
+	position: relative; 
+	top: 0;
+	left: 0;
+	z-index: 1;
+	padding: 40px;
+}
+
+#lightbluetext {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	opacity: 0;
+	padding: 40px;
+}
+
+#lightblue:hover > #lightbluetext {
+	opacity: 1;
+}
+#pink {
+	padding: 40px;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	float: right;
+}
+#pinktext {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	opacity: 0;
+	padding: 40px;
+}
+
+#pink:hover > #pinktext {
+	opacity: 1;
+}
+#comments {
+	text-align: center;
+	padding: 40px;
+	margin: 0 auto;
+}
+
+#social-buttons button {
+	color: white;
+}
+.btn-twitter {
+	background-color: #00acee;
+	border-color: #009ad5;
+}
+.btn-facebook {
+	background-color: #4868ac;
+	border-color: #314776;
+}
+.btn-pinterest {
+	background-color: #b62f26;
+	border-color: #b62f26;
+}
